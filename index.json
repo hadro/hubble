@@ -3,23 +3,23 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://localhost:8080/index.json",
+  "id": "https://hadro.github.io/hubble/index.json",
   "type": "Manifest",
   "items": [
     {
-      "id": "https://localhost:8080/index.json/canvas/0",
+      "id": "https://hadro.github.io/hubble/index.json/canvas/0",
       "type": "Canvas",
       "items": [
         {
-          "id": "https://localhost:8080/index.json/canvas/0/annotationpage/0",
+          "id": "https://hadro.github.io/hubble/index.json/canvas/0/annotationpage/0",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://localhost:8080/index.json/canvas/0/annotation/0",
+              "id": "https://hadro.github.io/hubble/index.json/canvas/0/annotation/0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://localhost:8080/hubble.tiff",
+                "id": "https://hadro.github.io/hubble/hubble.tiff",
                 "type": "Image",
                 "format": "image/tiff",
                 "label": {
@@ -31,13 +31,13 @@
                 "height": 6200,
                 "service": [
                   {
-                    "@id": "https://localhost:8080/hubble/tiles",
+                    "@id": "https://hadro.github.io/hubble/hubble/tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://localhost:8080/index.json/canvas/0"
+              "target": "https://hadro.github.io/hubble/index.json/canvas/0"
             }
           ]
         }
@@ -51,7 +51,7 @@
       "height": 6200,
       "thumbnail": [
         {
-          "id": "https://localhost:8080/thumb.jpg",
+          "id": "https://hadro.github.io/hubble/thumb.jpg",
           "type": "Image"
         }
       ]
@@ -64,7 +64,7 @@
   },
   "thumbnail": [
     {
-      "id": "https://localhost:8080/hubble/thumb.jpg",
+      "id": "https://hadro.github.io/hubble/thumb.jpg",
       "type": "Image"
     }
   ]
