@@ -31,7 +31,7 @@
                 "height": 6200,
                 "service": [
                   {
-                    "@id": "https://hadro.github.io/hubble/hubble/tiles",
+                    "@id": "https://hadro.github.io/hubble/tiles",
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
