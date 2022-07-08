@@ -63,6 +63,18 @@
         {
           "label": {
             "@none": [
+              "rights"
+            ]
+          },
+          "value": {
+            "@none": [
+              "https://creativecommons.org/publicdomain/mark/1.0/"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
               "publisher"
             ]
           },
@@ -110,6 +122,18 @@
       "value": {
         "@none": [
           "<a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">https://creativecommons.org/publicdomain/mark/1.0/</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "@none": [
+          "https://creativecommons.org/publicdomain/mark/1.0/"
         ]
       }
     },
