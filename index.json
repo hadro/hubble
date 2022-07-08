@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://localhost:8080/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://localhost:8080/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "https://localhost:8080/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://localhost:8080/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://localhost:8080/hubble.tiff",
+                "type": "Image",
+                "format": "image/tiff",
+                "label": {
+                  "@none": [
+                    "hubble"
+                  ]
+                },
+                "width": 6200,
+                "height": 6200,
+                "service": [
+                  {
+                    "@id": "https://localhost:8080/hubble/tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://localhost:8080/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "hubble"
+        ]
+      },
+      "width": 6200,
+      "height": 6200,
+      "thumbnail": [
+        {
+          "id": "https://localhost:8080/thumb.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "label": {
+    "@none": [
+      "hubble"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://localhost:8080/hubble/thumb.jpg",
+      "type": "Image"
+    }
+  ]
+}
